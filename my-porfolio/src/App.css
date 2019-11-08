@@ -2,40 +2,41 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
-
 body {
   background-color: #0c7489;
+  margin: 0;
 }
 
-.jobs div {
-  
-  background-color: #119da4;
-}
 
-h4 {
-  background-color: #034078;
+h1, h2 {
+  margin: 0%;
   color: white;
 }
-/* p:first-child {
+h4, h3 {
+  background-color: #034078;
+  color: white;
   
-  font-weight: bold
+}
+ul  {
+  margin: auto;
+  color: white;
+  text-align: left;
+ }
+li{
 
-} */
+} 
+.jobs h4 {
+  margin: auto;
+}
+.jobs div {
+  background-color: #119da4;
+}
+p{
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+{
+  margin: auto;
+}
