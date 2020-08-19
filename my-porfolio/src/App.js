@@ -5,11 +5,14 @@ import './App.css';
 function App() {
   return (
   <div className="App">
-    <body>
-      <div>
+      
+      <div class="header" id="myHeader">
         <h1>Roosevelt B. Segura</h1>
         <h2>Roosevelt.bseg@gmail.com</h2>
       </div>
+
+    <body>
+
       <div>
         <h3>Summary</h3>
         <p>Experience worker in IT while continuing my education in the field of Cyber Security. Strong customer service over the phone assisting with installing, modifying and repairing computer hardware and software.</p>
