@@ -1,16 +1,16 @@
 import React from 'react';
  
 import './App.css';
+import './Header';
+
+
+
 
 function App() {
   return (
+    
   <div className="App">
-      
-      <div class="header" id="myHeader">
-        <h1>Roosevelt B. Segura</h1>
-        <h2>Roosevelt.bseg@gmail.com</h2>
-      </div>
-
+    
     <body>
 
       <div>
