@@ -65,9 +65,7 @@ hr {
 }
 ul {
   
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 2%;
+  
   color: white;
   text-align: left;
   
@@ -76,7 +74,9 @@ ul {
   
 }
 li {
-  
+
+
+
   
 }
 .jobs h4 {
