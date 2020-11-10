@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./assets/App";
-import * as serviceWorker from "./serviceWorker";
 import Header from "./assets/Header";
 import Footer from "./assets/Footer";
 

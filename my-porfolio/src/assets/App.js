@@ -1,22 +1,15 @@
 import React from 'react';
  
-import './App.css';
-import './Header';
-
-
-
-
 function App() {
   return (
     
   <div className="App">
-    
-    <body>
-
+      <br />
       <div>
         <h3>Summary</h3>
-        <p>Experience worker in IT while continuing my education in the field of Cyber Security. Strong customer service over the phone assisting with installing, modifying and repairing computer hardware and software.</p>
+        <p>Experience worker providing IT support while continuing my education in the field of Cybersecurity. </p>
       </div>
+
       <div>
         <h3>Skills & Abilities</h3>
           <ul>
@@ -26,32 +19,33 @@ function App() {
             <li>Network Security knowledge</li>
             <li>Bilingual (English and Spanish)</li>
             <li>Superior Customer Service</li>
+            <li>HTML & CSS</li>
           </ul>
       </div>
       <div>
         <h3>Certifications</h3>
-          <ul>
             <p>CompTIA Security+ CE Apr/2016 – Apr/2019</p>
-          </ul>
       </div>
       <div>
         <h3>
           Training
         </h3>
         <ul>
-        <li>Windows Server 2012 R2 (40 Hours)</li>
-        <li> Windows OS (40 hours)</li>
-        <li>Network+ (40 hours)</li>
-        <li>Security+ (40 hours)</li>
+        <li>Windows Server 2012 R2 </li>
+        <li> Windows OS </li>
+        <li>Network+ </li>
+        <li>Security+ </li>
         <li>Linux</li>
         </ul>
       </div>
       <div className="Experience jobs">
         <h3>Experience</h3>
+        <br></br>
         <div>
-          <h4>
-            Partners HealthCare Boston, MA			May/2019 – Present
-            Imaging Informatics Analyst
+          <h4>Desktop Support Analyst
+           <br />Massachusetts General Hospital
+           <br />Boston, MA
+           <br />May/2019 – Present
           </h4>
           <ul>
             <li>Collaborate and communicate effectively with colleagues, and other hospital personnel, to facilitate day to day operations.</li>
@@ -68,9 +62,10 @@ function App() {
           </ul>
         </div>
         <div>
-          <h4>
-              MIT Lincoln Laboratory Lexington, MA			Apr/2019 – May/2019
-              System Support Analyst            
+          <h4> System Support Analyst
+              <br />MIT Lincoln Laboratory
+              <br />Lexington, MA
+              <br />Apr/2019 – May/2019           
           </h4>
           <ul>
             <li>Provide desktop and laptop desk side support for Windows & Mac systems.</li>
@@ -85,9 +80,11 @@ function App() {
           </ul>
         </div>
         <div>
-          <h4>
-            Netscout Westford, MA					Nov/2018 – Mar/2019
-            IT Helpdesk Support Specialist
+          <h4>IT Helpdesk Support Specialist
+          <br />Netscout
+          <br />Westford, MA
+          <br />Nov/2018 – Mar/2019
+            
           </h4>
           <ul>
             <li>Provide desktop end-user support, PC setup/configuration and resolution of all IT Client Services requests, for local and remote employees.</li>
@@ -101,22 +98,25 @@ function App() {
           </ul>
         </div>
         <div>
-          <h4>
-            MilliporeSigma Danvers, MA				Apr/2018 – Oct/2018 
-            Assembly
+          <h4>Line Assembler
+          <br />MilliporeSigma
+          <br />Danvers, MA
+          <br />Apr/2018 – Oct/2018 
           </h4>
           
           <ul>
-            <li>Reading detailed instructions and following established procedures.</li>
-            <li>producing and packaging medical disposables in a clean-room, biopharmaceutical environment.</li>
-            <li>Maintains safe and clean working environment by complying with procedures, rules, and regulations.</li>
+            <li>Reading detailed instructions and following established procedures during the assembly of product.</li>
+            <li>producing and packaging medical disposables in a biopharmaceutical environment.</li>
+            <li>Maintains a safe and clean working environment by complying with procedures, rules, and regulations.</li>
           </ul>
         </div>
         
         <div>
-          <h4>
-            OnePath North Andover, MA                                          	Aug/2017 – Jan/2018
-            Help Desk Technician I
+          <h4>Help Desk Technician I
+          <br />1Path 
+          <br />North Andover, MA 
+          <br />Aug/2017 – Jan/2018
+            
           </h4>
           <ul>
             <li>Install, modify, and repair computer hardware and software.</li>
@@ -128,13 +128,15 @@ function App() {
           </ul>        
         </div>
         <div>
-        <h4>
-          G4S Secure Integration Burlington, MA                         Oct/2016 – March/2017
-          Help Desk Technician I
+        <h4>Help Desk Technician I
+          <br />G4S Secure Integration 
+          <br />Burlington, MA
+          <br/>Oct/2016 – March/2017
+          
         </h4>
         <ul>
           <li>Monitor hardware, software and networks.</li>
-          <li>Ability to use ticketing systems to track, manage, review machine issues.</li>
+          <li>Used internal ticketing systems to track, manage, review machine issues.</li>
         </ul>
         </div>
       
@@ -142,20 +144,21 @@ function App() {
       <div>
           <h3>Military</h3>
         
-          <ul>
-            U.S. Army Specialist (Reserves)		          Mar/2010 - Mar/2018
-            21W Carpentry Specialist
-          </ul>
+            <p> 21W Carpentry Specialist
+            <br /> E-4 Specialist
+            <br />U.S. Army Reserves
+            <br />Mar/2010 - Mar/2018
+            </p>
+        
       </div>
       <div>
           <h3>Education</h3>
           
-          <ul>
-            Bunker hill Community College -                                        
-            Field of Study: Cybersecurity
-          </ul>
+          <p>
+            Field of Study: Cybersecurity                                        
+            <br/> Middlesex Community College
+          </p>
       </div>
-    </body>
   </div>
   );
 }

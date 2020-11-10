@@ -1,5 +1,104 @@
-.header {
+/* 
+Base colors for gradient
+#034078
+#119da4
+
+*/
+
+body {
+  max-width: 1100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #0c7489; */
+  background-image: radial-gradient(
+    circle,
+    #119da4,
+    #0a95a0,
+    #058d9b,
+    #058696,
+    #077e91,
+    #00778f,
+    #006f8c,
+    #006888,
+    #005e86,
+    #005582,
+    #004b7e,
+    #034078
+  );
+  margin: 0% auto;
+  background-attachment: fixed;
+
+  
+}
+
+.App {
+  text-align: center;
+  
+}
+
+h1,
+h2 {
+  margin: 0%;
+  color: white;
+}
+h4,
+h3 {
+  /* background-color: #034078; */
+  color: white;
+  margin: auto;
+  width: 70%;
+  /* border-radius: 10px; */
+  padding: .3em;
+  background: rgb(3,64,120);
+  background: radial-gradient(circle, rgba(3,64,120,1) 25%, rgba(0,0,0,0) 100%); 
+  
+}
+hr {
+  margin: 0px;
+   /* background-color: #034078; */
+   color: white;
+   
+
+}
+ul {
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2%;
+  color: white;
+  text-align: left;
+  
+  
+  
+  
+}
+li {
+  
+  
+}
+.jobs h4 {
+  margin: auto;
+
+  
+}
+.jobs div {
+  /* background-color: #119da4; */
+  /* background: rgb(17,157,164);
+background: radial-gradient(circle, rgba(17,157,164,0.2) 0%, rgba(12,116,137,0.19929978827468486) 100%);  */
+
+}
+p {
+  color: white;
+  margin: auto;
+  text-align: center;
   padding: 1%;
+  
+}
+
+.header {
   background: #0c7489;
   color: #f1f1f1;
   position: relative;
@@ -8,11 +107,9 @@
   text-align: center;
   text-shadow: black 1px 1px 3px;
   position: sticky;
-  
 }
 
 .footer {
-  padding: 1%;
   background: #0c7489;
   color: #f1f1f1;
   width: 100%;
@@ -20,32 +117,11 @@
   text-align: center;
   text-shadow: black 1px 1px 3px;
   position: sticky;
-  
-}
-.content {
-  padding: 16px;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  
- 
-}
-.sticky + .content {
-  padding-top: 102px;
 }
 
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #0c7489;
-  margin: 0%;
-  
+.container {
+ background: rgb(17,157,164);
+background: radial-gradient(circle, rgba(17,157,164,1) 0%, rgba(17,157,164,1) 30%, rgba(12,116,137,0.7455182756696428) 70%, rgba(12,116,137,0) 100%); 
 }
 
 code {
