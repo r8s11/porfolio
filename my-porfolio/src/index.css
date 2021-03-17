@@ -64,21 +64,20 @@ hr {
 
 }
 ul {
-  
-  
+  display: flex;
+  flex-flow: wrap;
   color: white;
-  text-align: left;
-  
-  
-  
-  
+  padding: 0px 20px;
+  list-style-type:none;
+  gap: .5rem 1rem;
+  justify-content: center;
+  margin: .3rem 0;
+    
 }
 li {
 
-
-
-  
 }
+
 .jobs h4 {
   margin: auto;
 
